@@ -19,7 +19,7 @@ const translate = require('translate');
         let info = []
         let arrayInformation = Array.from(document.querySelectorAll('._1xnd ._4bl9 div'));
         let category = Array.from(document.querySelectorAll('._2piu ._1xnd ._4bl9 a'));
-        let payment = Array.from(document.querySelectorAll('._1xnd ._4bl9 i'));
+        let payment = Array.from(document.querySelectorAll('._4bl9 i'));
 
         let title = document.querySelector('._64-f').innerText;
         //let menu = Array.from(document.querySelectorAll('div a'));
@@ -107,7 +107,6 @@ const translate = require('translate');
             gallery[0].splice(i, 1)
         }
     }
-    /*
     console.log("Categories: " +categories + "\nSubcategories: " +subcategories);
     console.log("Name:" + name + "\nLogo: " + logo);
     console.log("Hora: " + hour[0] + " - " + hour[1]);
@@ -121,7 +120,7 @@ const translate = require('translate');
     for (let i = 0; i < gallery[0].length; i++) {
         console.log(gallery[0][i])
     }
-*/
-console.log(information[5])
+    */
+
     //browser.close();
 })();
