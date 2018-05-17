@@ -1,20 +1,20 @@
-##Data
+# Data
 
 It is a package dedicated to the easy extraction of data from commercial pages of facebook.
 
-##Features
+## Features
 - Basic information on company Facebook pages
 - Gallery on company Facebook pages
 - It only works for the English and Spanish versions of Facebook
 
-##Installation
+## Installation
 
 First download the npm library of data:
 ``` bash
 npm install data.js --save
 ```
 
-##Usage
+## Usage
 
 ```js
 const data = requiere('./data')
@@ -22,17 +22,17 @@ const data = requiere('./data')
 //Receive the set of images from the facebook page
 data.gallery(facebookURL)
 	.then(res => console.log(res))
-    .catch(console.err)
+    .catch(console.error)
     
 //Reveive the set of basic information from the facebook page
 data.information(facebookURL)
 	.then(res => console.log(res))
-    .catch(console.err)
+    .catch(console.error)
 ```
 
 - `facebookURL` is the url taken from the start of the facebook business page to evaluate
 
-###Return
+### Return
 
 This is the way to recive the information from information function
 ```
