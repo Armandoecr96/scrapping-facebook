@@ -1,4 +1,4 @@
-#Data
+##Data
 
 It is a package dedicated to the easy extraction of data from commercial pages of facebook.
 
@@ -35,7 +35,7 @@ data.information(facebookURL)
 ###Return
 
 This is the way to recive the information from information function
-```json
+```
 { 
 	bussinesInformation:
 	{
@@ -73,7 +73,7 @@ This is the way to recive the information from information function
 **Note:** There is an error that makes the information of hours and days of the week not always available. 
 
 This is the way to recive the information from gallery function
-```json
+```
   var jsonGal = 
  { gallery:   
  	[ 	 
@@ -93,7 +93,7 @@ data.gallery(facebookURL).then(res => console.log(res.gallery[0].img))
 
 The information that does not exist on the facebook page will be represented as a String without characters. It is represented in this way: 
 
-```json
+```
 categories: 
 { 
 	categories: '',
